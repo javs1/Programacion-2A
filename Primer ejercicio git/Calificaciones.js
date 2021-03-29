@@ -3,8 +3,9 @@ var promedio = 0;
 var i = 0
   for (i=0;i<10;i++){
   cal[i]=prompt("Introduce la primera calificaciones")
-  promedio+=(cal[i]/10)
+  promedio+=(cal[i])
   }
+  promedio/=10;//solo al final necesitas dividir entre 10
   document.write("El promedio es: "+promedio + "<br>")
   for (i=0;i<10;i++){
   	if(cal[i]>promedio){
